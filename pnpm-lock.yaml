@@ -45,11 +45,11 @@ importers:
         specifier: ^7.0.7
         version: 7.0.8
       zod:
-        specifier: ^3.24.2
-        version: 3.25.46
+        specifier: ^3.25.64
+        version: 3.25.64
       zod-to-json-schema:
         specifier: ^3.24.5
-        version: 3.24.5(zod@3.25.46)
+        version: 3.24.5(zod@3.25.64)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.1
@@ -122,7 +122,7 @@ importers:
     dependencies:
       '@gleanwork/api-client':
         specifier: 0.6.1
-        version: 0.6.1(zod@3.25.46)
+        version: 0.6.1(zod@3.25.64)
       '@gleanwork/mcp-server-utils':
         specifier: workspace:*
         version: link:../mcp-server-utils
@@ -142,11 +142,11 @@ importers:
         specifier: ^7.0.7
         version: 7.0.8
       zod:
-        specifier: ^3.24.2
-        version: 3.25.46
+        specifier: ^3.25.64
+        version: 3.25.64
       zod-to-json-schema:
         specifier: ^3.24.5
-        version: 3.24.5(zod@3.25.46)
+        version: 3.24.5(zod@3.25.64)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.1
@@ -227,11 +227,11 @@ importers:
         specifier: ^7.0.7
         version: 7.0.8
       zod:
-        specifier: ^3.24.2
-        version: 3.25.46
+        specifier: ^3.25.64
+        version: 3.25.64
       zod-to-json-schema:
         specifier: ^3.24.5
-        version: 3.24.5(zod@3.25.46)
+        version: 3.24.5(zod@3.25.64)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.1
@@ -241,7 +241,7 @@ importers:
         version: 9.28.0
       '@gleanwork/api-client':
         specifier: 0.6.1
-        version: 0.6.1(zod@3.25.46)
+        version: 0.6.1(zod@3.25.64)
       '@release-it-plugins/lerna-changelog':
         specifier: ^7.0.0
         version: 7.0.0(release-it@17.11.0(typescript@5.8.3))
@@ -3644,8 +3644,8 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.25.46:
-    resolution: {integrity: sha512-IqRxcHEIjqLd4LNS/zKffB3Jzg3NwqJxQQ0Ns7pdrvgGkwQsEBdEQcOHaBVqvvZArShRzI39+aMST3FBGmTrLQ==}
+  zod@3.25.64:
+    resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
 
 snapshots:
 
@@ -3791,9 +3791,9 @@ snapshots:
 
   '@gar/promisify@1.1.3': {}
 
-  '@gleanwork/api-client@0.6.1(zod@3.25.46)':
+  '@gleanwork/api-client@0.6.1(zod@3.25.64)':
     dependencies:
-      zod: 3.25.46
+      zod: 3.25.64
 
   '@humanfs/core@0.19.1': {}
 
@@ -3860,8 +3860,8 @@ snapshots:
       express-rate-limit: 7.5.0(express@5.1.0)
       pkce-challenge: 5.0.0
       raw-body: 3.0.0
-      zod: 3.25.46
-      zod-to-json-schema: 3.24.5(zod@3.25.46)
+      zod: 3.25.64
+      zod-to-json-schema: 3.24.5(zod@3.25.64)
     transitivePeerDependencies:
       - supports-color
 
@@ -7348,8 +7348,8 @@ snapshots:
 
   yoctocolors-cjs@2.1.2: {}
 
-  zod-to-json-schema@3.24.5(zod@3.25.46):
+  zod-to-json-schema@3.24.5(zod@3.25.64):
     dependencies:
-      zod: 3.25.46
+      zod: 3.25.64
 
-  zod@3.25.46: {}
+  zod@3.25.64: {}
